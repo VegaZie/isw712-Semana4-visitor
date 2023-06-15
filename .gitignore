@@ -1,0 +1,65 @@
+# Carpeta de dependencias
+node_modules/
+
+# Archivos de configuración específicos del IDE
+.vscode/
+
+# Archivos de registro y datos temporales
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Archivos de compilación y construcción
+dist/
+build/
+out/
+lib/
+*.tsbuildinfo
+*.env
+
+# Archivos de configuración de entorno
+.env
+
+# Archivos generados por herramientas de pruebas
+.coverage/
+.nyc_output/
+.jest/
+
+# Carpeta de respaldo de código
+.backup/
+
+# Archivos y carpetas específicas de JetBrains
+.idea/
+.idea_modules/
+*.iml
+out/
+
+# Archivos de respaldo
+*~
+*.swp
+*.bak
+
+# Archivos de configuración de TypeScript
+tsconfig.json
+tsconfig.*.json
+
+# Archivos de configuración de Babel
+.babelrc
+babel.config.js
+
+# Archivos de configuración de ESLint
+.eslintrc
+.eslintcache
+
+# Archivos de configuración de Prettier
+.prettierrc
+.prettierignore
+
+# Archivos de configuración de Jest
+jest.config.js

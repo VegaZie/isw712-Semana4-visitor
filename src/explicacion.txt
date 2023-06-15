@@ -1,0 +1,25 @@
+Por supuesto, el patrón de diseño Visitor se utiliza para separar algoritmos de la estructura de los objetos sobre los que operan. Proporciona una forma de agregar operaciones o comportamientos nuevos a una jerarquía de objetos existente sin modificar dicha jerarquía.
+
+El patrón Visitor se compone de los siguientes elementos:
+
+- Visitor: Es la interfaz o clase base que define los métodos de visita para cada tipo de objeto que puede ser visitado. Cada método de visita está asociado con un tipo específico de objeto visitable.
+
+- ConcreteVisitor: Son las implementaciones concretas de la interfaz Visitor. Cada ConcreteVisitor proporciona una implementación concreta de los métodos de visita para los diferentes tipos de objetos visitables.
+
+- Visitable: Es la interfaz o clase base que define el método de aceptación `accept(visitor)`. Este método permite que un objeto visitable acepte la visita de un objeto visitor. Cada objeto visitable implementa su propia lógica para invocar el método de visita correspondiente del visitor.
+
+- ConcreteVisitable: Son las implementaciones concretas de la interfaz Visitable. Cada ConcreteVisitable proporciona una implementación concreta del método de aceptación `accept(visitor)` para invocar el método de visita adecuado del visitor.
+
+El patrón Visitor se utiliza cuando:
+
+1. Se necesita agregar operaciones o comportamientos nuevos a una jerarquía de objetos existente sin modificar dicha jerarquía.
+2. La estructura de la jerarquía de objetos es estable pero las operaciones que se realizan sobre ella varían y deben separarse de la estructura.
+3. Se desea evitar la proliferación de métodos en la jerarquía de objetos para manejar diferentes operaciones.
+
+Beneficios del patrón Visitor:
+
+- Permite agregar nuevas operaciones sin modificar las clases existentes, lo que favorece el principio de apertura y cierre (Open/Closed Principle) del diseño de software.
+- Separa los algoritmos de la estructura de los objetos, lo que facilita la modularidad y la reutilización de código.
+- Permite realizar operaciones sobre una jerarquía de objetos sin necesidad de conocer todos los tipos de objetos específicos en tiempo de compilación.
+
+En resumen, el patrón Visitor es útil cuando se necesita agregar comportamientos o realizar operaciones complejas en una jerarquía de objetos sin modificar dicha jerarquía, proporcionando una separación clara entre la estructura de los objetos y las operaciones que se realizan sobre ellos.
