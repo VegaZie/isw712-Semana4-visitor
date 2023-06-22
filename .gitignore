@@ -50,7 +50,6 @@ tsconfig.json
 tsconfig.*.json
 
 # Archivos de configuración de Babel
-.babelrc
 babel.config.js
 
 # Archivos de configuración de ESLint
