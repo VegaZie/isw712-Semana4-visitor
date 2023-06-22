@@ -21,5 +21,3 @@ Beneficios del patrón Visitor:
 - Permite agregar nuevas operaciones sin modificar las clases existentes, lo que favorece el principio de apertura y cierre (Open/Closed Principle) del diseño de software.
 - Separa los algoritmos de la estructura de los objetos, lo que facilita la modularidad y la reutilización de código.
 - Permite realizar operaciones sobre una jerarquía de objetos sin necesidad de conocer todos los tipos de objetos específicos en tiempo de compilación.
-
-En resumen, el patrón Visitor es útil cuando se necesita agregar comportamientos o realizar operaciones complejas en una jerarquía de objetos sin modificar dicha jerarquía, proporcionando una separación clara entre la estructura de los objetos y las operaciones que se realizan sobre ellos.
