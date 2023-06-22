@@ -5,3 +5,5 @@ Comando para instalar dependecias necesarias para el funcionamiento de este pequ
 npm install
 
 npm install --save-dev @babel/cli @babel/core @babel/preset-env
+
+npm start
