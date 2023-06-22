@@ -1,4 +1,4 @@
-Por supuesto, el patrón de diseño Visitor se utiliza para separar algoritmos de la estructura de los objetos sobre los que operan. Proporciona una forma de agregar operaciones o comportamientos nuevos a una jerarquía de objetos existente sin modificar dicha jerarquía.
+El patrón de diseño Visitor se utiliza para separar algoritmos de la estructura de los objetos sobre los que operan. Proporciona una forma de agregar operaciones o comportamientos nuevos a una jerarquía de objetos existente sin modificar dicha jerarquía.
 
 El patrón Visitor se compone de los siguientes elementos:
 
