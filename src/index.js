@@ -9,6 +9,9 @@ const employees = [
     new Engineer("Alice", 3000, "Java"),
     new Engineer("Bob", 2500, "Python"),
     new Engineer("Charlie", 3500, "Java"),
+    new Engineer("Pedro", 4000, "Java"),
+    new Engineer("David", 3850, "Python"),
+    new Engineer("Emily", 4250, "Java")
   ];
   
   //// Creación de visitantes
